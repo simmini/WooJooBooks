@@ -3,7 +3,7 @@
 
 
 <h1>🙋‍♂️ Spring을 함께 공부하고자 모인 사람들</h1>
-<a href="https://github.com/simmini">simmini님</a>
+<a href="https://github.com/simmini">simmini님</a> <br/>
 <a href="https://github.com/Lee-S-June">Lee-S-June님</a>
 
 
@@ -31,7 +31,7 @@
 데이터베이스
 - Hibernate, MySQL
 
-📜 프로젝트 구현 기능
+<h1>📜 프로젝트 구현 기능
 회원 (Member)
 - 회원가입 / 로그인 및 로그아웃
 
@@ -44,7 +44,7 @@
 장바구니 (Cart)
 - 장바구니 담기 / 장바구니 조회 / 장바구니 삭제 / 장바구니 상품 주문
 
-📂 프로젝트 DB 모델링
+  <h1>📂 프로젝트 DB 모델링</h1>
 사진
 member - 쇼핑몰 회원 정보 테이블
 cart - 회원의 장바구니 목록 테이블
@@ -54,5 +54,5 @@ order_item - 주문된 상품 정보 테이블
 item - 쇼핑몰 상품 정보 테이블
 item_img - 상품에 대한 이미지 정보를 담고 있는 테이블
 
-📜 프로젝트 API 명세서
+<h1>📜 프로젝트 API 명세서</h1>
 
