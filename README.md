@@ -8,14 +8,15 @@
 
 
 <h1>⚙️ 프로젝트 개발 환경</h1>
-운영체제 : Window10
+  <ol>
+    <li>운영체제 : Window10</li>
 통합개발환경(IDE) : IntelliJ
 JDK 버전 : JDK 11
 스프링 부트 버전 : 
 데이터 베이스 : MySQL
 빌드 툴 : Maven
 관리 툴 : Git, GitHub
-
+  </ol>
 <h1>⚒️ 프로젝트 기술 스택</h1>
 프론트엔드
 - HTML, CSS, JS, BootStrap, Thymeleaf
