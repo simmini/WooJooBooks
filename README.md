@@ -24,12 +24,14 @@
  
  
 <h1>⚒️ 프로젝트 기술 스택</h1>
-<h6>프론트엔드</h6>
+<ul>
+  <li>프론트엔드</li>
 - HTML, CSS, JS, BootStrap, Thymeleaf
-백엔드
+<li>백엔드</li>
 - Spring Boot, Spring Security, Spring Data JPA
-데이터베이스
+<li>데이터베이스</li>
 - Hibernate, MySQL
+  </ul>
 
 <h1>📜 프로젝트 구현 기능</h1>
 회원 (Member)
