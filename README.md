@@ -24,7 +24,7 @@
  
  
 <h1>⚒️ 프로젝트 기술 스택</h1>
-프론트엔드
+<h6>프론트엔드</h6>
 - HTML, CSS, JS, BootStrap, Thymeleaf
 백엔드
 - Spring Boot, Spring Security, Spring Data JPA
