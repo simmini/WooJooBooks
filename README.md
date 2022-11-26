@@ -31,7 +31,7 @@
 - Spring Boot, Spring Security, Spring Data JPA
 <li>데이터베이스</li>
 - Hibernate, MySQL
-  </ul>
+ </ul>
 
 <h1>📜 프로젝트 구현 기능</h1>
 회원 (Member)<br/>
