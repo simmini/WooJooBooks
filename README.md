@@ -17,9 +17,9 @@
   <li>운영체제 : Window10</li>
   <li>통합개발환경(IDE) : IntelliJ</li>
   <li>JDK 버전 : JDK 11</li>
-  <li>스프링 부트 버전 : </li>
+  <li>스프링 부트 버전 : 2.7.6 </li>
   <li>데이터 베이스 : MySQL</li>
-  <li>빌드 툴 : Maven</li>
+  <li>빌드 툴 : grandle</li>
   <li>관리 툴 : Git, GitHub</li>
  </ol>
  
