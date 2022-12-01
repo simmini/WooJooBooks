@@ -4,7 +4,10 @@
 
 <h1>🙋‍♂️ Spring을 함께 공부하고자 모인 사람들</h1>
 <a href="https://github.com/simmini">simmini님</a> <br/>
-<a href="https://github.com/Lee-S-June">Lee-S-June님</a>
+<a href="https://github.com/Lee-S-June">Lee-S-June님</a><br/>
+<a href="https://github.com/qdt6028">qdt6028님</a><br/> 
+<a href="https://github.com/serena-0323">serena-0323님</a><br/> 
+<a href="https://github.com/Amuk97">Amuk97님</a><br/> 
 
 <a href=""></a><br/>
 
