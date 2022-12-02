@@ -9,6 +9,7 @@ import org.springframework.data.jpa.repository.config.EnableJpaAuditing;
 public class WjbooksApplication {
 
     public static void main(String[] args) {
+
         SpringApplication.run(WjbooksApplication.class, args);
     }
 

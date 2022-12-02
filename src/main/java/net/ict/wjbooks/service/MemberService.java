@@ -6,7 +6,7 @@ import net.ict.wjbooks.repository.MemberRepository;
 import org.springframework.stereotype.Service;
 
 @Service
-@RequiredArgsConstructor        // 생성자 주입방식
+@RequiredArgsConstructor        // 생성자 주입방식;
 public class MemberService {
 
     private final MemberRepository memberRepository;
