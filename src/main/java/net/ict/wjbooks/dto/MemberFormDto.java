@@ -39,6 +39,7 @@ public class MemberFormDto { //가입정보,빈 유효성 검사 추가
     @Pattern(regexp = "^01(?:0|1|[6-9])[.-]?(\\d{3}|\\d{4})[.-]?(\\d{4})$", message = "10 ~ 11 자리의 숫자만 입력 가능합니다.")
     private String tellPhone;
 
+
     @NotEmpty(message = "주소는 필수 입력값입니다.")
     @Column(name="m_address1",nullable = false)
     private String adr1;

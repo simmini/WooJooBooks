@@ -1,5 +1,5 @@
 package net.ict.wjbooks.domain;
-//아 미치겠어
+
 import lombok.Getter;
 import lombok.Setter;
 import lombok.ToString;

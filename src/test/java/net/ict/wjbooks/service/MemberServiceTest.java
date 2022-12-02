@@ -22,7 +22,7 @@ public class MemberServiceTest {
 
     public Member createMem(){
         MemberFormDto dto = new MemberFormDto();
-        dto.setEmail("test1201naver.com");
+        dto.setEmail("test1201@naver.com");
         dto.setName("1201테스트");
         dto.setAdr1("서울시");
         dto.setPassword("1234");
