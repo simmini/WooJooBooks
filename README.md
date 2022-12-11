@@ -30,11 +30,13 @@
 <h1>⚒️ 프로젝트 기술 스택</h1>
 <ul>
   <li>프론트엔드</li>
-- HTML, CSS, JS, BootStrap, Thymeleaf
+- HTML, CSS, JS, BootStrap, Thymeleaf, JQuery
 <li>백엔드</li>
-- Spring Boot, Spring Security, Spring Data JPA
+- Spring Boot, Spring Security, Spring Data JPA, ApacheTomcat(9.0)
 <li>데이터베이스</li>
 - Hibernate, MySQL
+<li>기타</li>
+-ERDCloud,Flgma
  </ul>
 
 <h1>📜 프로젝트 구현 기능</h1>
@@ -52,14 +54,16 @@
 
 
 <h1>📂 프로젝트 DB 모델링</h1>
-사진<br/>
-member - 쇼핑몰 회원 정보 테이블<br/>
-cart - 회원의 장바구니 목록 테이블<br/>
-cart_item - 장바구니에 담긴 상품 정보 테이블<br/>
-orders - 쇼핑몰 회원들의 주문 목록 테이블<br/>
-order_item - 주문된 상품 정보 테이블<br/>
-item - 쇼핑몰 상품 정보 테이블<br/>
-item_img - 상품에 대한 이미지 정보를 담고 있는 테이블<br/>
+<img></img>
+<br/>
+member : 회원정보 테이블
+sellBoard : 판매게시판 테이블
+sellBoardImg : 판매게시판용 이미지파일 테이블
+Board : 공지게시판 테이블
+BoardImg : 공지게시판용 파일 테이블
+buyList/sellList : 구매/판매정보 테이블
+Like : 찜목록 테이블
+
 
 <h1>📜 프로젝트 API 명세서</h1>
 
