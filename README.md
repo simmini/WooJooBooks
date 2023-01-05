@@ -66,18 +66,18 @@ BoardImg : 공지게시판용 파일 테이블</br>
 <img src="https://user-images.githubusercontent.com/77092838/210768634-e46f6d1b-01fe-4e40-9669-386408e74bf0.png"/>
 
 <h1>📜 프로젝트 API 명세서</h1>
-![DBAPI설계](https://user-images.githubusercontent.com/77092838/210763757-105df151-104a-403f-a0dc-c1c7fe4c561d.png)
+<img src="https://user-images.githubusercontent.com/77092838/210763757-105df151-104a-403f-a0dc-c1c7fe4c561d.png"/>
 
 
 <h1>🎯 구현 결과</h1>
-<ol>
+<ul>
  1)회원
  <li>회원가입</li>
  <li>카카오연동</li>
  <li>로그인</li>
  <li>회원정보수정</li> 
  <li>회원탈퇴</li>
- </ol>
+ </ul>
  <img src="https://user-images.githubusercontent.com/77092838/210769848-0e8ae051-08b9-459d-a024-beea8ee9785f.png"/><br/>
  
  <img src="https://user-images.githubusercontent.com/77092838/210768747-c83db671-328f-410d-838d-b280d96ff1a4.png"/><br/>
