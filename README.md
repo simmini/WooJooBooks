@@ -71,7 +71,7 @@ BoardImg : 공지게시판용 파일 테이블</br>
 
 <h1>🎯 구현 결과</h1><br/>
 <ul>
- 1)회원
+1)회원
  <li>회원가입</li>
  <li>카카오연동</li>
  <li>로그인</li>
@@ -87,7 +87,7 @@ BoardImg : 공지게시판용 파일 테이블</br>
 
  
 
-2)메인 페이지(홈)</br>
+<br/>2)메인 페이지(홈)</br>
 <ul>
  <li>도서 리스트 보기</li>
  <li>도서 업로드</li>
@@ -100,12 +100,12 @@ BoardImg : 공지게시판용 파일 테이블</br>
  <img src="https://user-images.githubusercontent.com/77092838/210769660-eff8d4fd-60ec-47ea-84f7-01c0b5e478ad.png"/>
 
  
- 3)마이 페이지</br>
+<br/>3)마이 페이지</br>
  <li>내 정보 보기</li>
  
 <img src="https://user-images.githubusercontent.com/77092838/210769731-12b86f5c-1c4c-4b3d-9c1d-302375d7955c.png"/>
 
- 4)공지 페이지</br>
+ <br/>4)공지 페이지</br>
  <ul>
  <li>공지 게시글 보기</li>
  <li>공지 업로드</li>
