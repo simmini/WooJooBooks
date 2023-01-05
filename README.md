@@ -42,7 +42,7 @@
 
 <h1>📜 프로젝트 구현 기능</h1>
 <ul>
-<li>회원 (Member)<br/></li>
+ <li>회원 (Member)<br/></li>
 회원가입/ 카카오 연동/ 로그인 및 로그아웃/ 회원정보 수정 / 회원 정보 보기/ 회원탈퇴<br/><br/>
 
 <li>상품 (Item)<br/></li>
@@ -70,8 +70,8 @@ BoardImg : 공지게시판용 파일 테이블</br>
 
 
 <h1>🎯 구현 결과</h1><br/>
+1)회원</br>
 <ul>
-1)회원
  <li>회원가입</li>
  <li>카카오연동</li>
  <li>로그인</li>
@@ -101,8 +101,9 @@ BoardImg : 공지게시판용 파일 테이블</br>
 
  
 <br/>3)마이 페이지</br>
+<ul>
  <li>내 정보 보기</li>
- 
+ </ul>
 <img src="https://user-images.githubusercontent.com/77092838/210769731-12b86f5c-1c4c-4b3d-9c1d-302375d7955c.png"/>
 
  <br/>4)공지 페이지</br>
