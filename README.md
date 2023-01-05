@@ -80,6 +80,8 @@ BoardImg : 공지게시판용 파일 테이블
  카카오연동</br>
 
  <li>메인 페이지(홈)</li>
+ ![메인페이지](https://user-images.githubusercontent.com/77092838/210766447-acefe85f-e9fd-4572-be8a-cd75ce494a0b.png)
+
  도서 리스트 보기<br/>
  도서 업로드<br/>
  도서 상세페이지 보기<br/>
