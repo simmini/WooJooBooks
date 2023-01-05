@@ -66,35 +66,39 @@ BoardImg : 공지게시판용 파일 테이블</br>
 <img src="https://user-images.githubusercontent.com/77092838/210768634-e46f6d1b-01fe-4e40-9669-386408e74bf0.png"/>
 
 <h1>📜 프로젝트 API 명세서</h1>
-
 ![DBAPI설계](https://user-images.githubusercontent.com/77092838/210763757-105df151-104a-403f-a0dc-c1c7fe4c561d.png)
 
 
 <h1>🎯 구현 결과</h1>
 <ol>
- <li>회원</li>
- 회원가입<br/>
- <img src="https://user-images.githubusercontent.com/77092838/210769848-0e8ae051-08b9-459d-a024-beea8ee9785f.png"/>
+ 1)회원
+ <li>회원가입</li>
+ <li>카카오연동</li>
+ <li>로그인</li>
+ <li>회원정보수정</li> 
+ <li>회원탈퇴</li>
+ <img src="https://user-images.githubusercontent.com/77092838/210769848-0e8ae051-08b9-459d-a024-beea8ee9785f.png"/><br/>
+ 
+ <카카오 사진>
+ <img src="https://user-images.githubusercontent.com/77092838/210768747-c83db671-328f-410d-838d-b280d96ff1a4.png"/><br/>
 
- 카카오연동</br>
- 로그인<br/>
- <img src="https://user-images.githubusercontent.com/77092838/210768747-c83db671-328f-410d-838d-b280d96ff1a4.png"/>
- 회원정보수정</br>
- <img src="https://user-images.githubusercontent.com/77092838/210769872-fffef726-0044-4ad3-94d0-1c3e41255b52.png"/>
+ <img src="https://user-images.githubusercontent.com/77092838/210769872-fffef726-0044-4ad3-94d0-1c3e41255b52.png"/><br/>
+ 
 
  
- 회원탈퇴</br>
- 
 
- <li>메인 페이지(홈)</li>
- <img src="https://user-images.githubusercontent.com/77092838/210767782-43c9be5f-ff90-403b-8ade-22383a69cb60.png"/>
+2)메인 페이지(홈)
 
+  
  도서 리스트 보기<br/>
  도서 업로드<br/>
- <img src="https://user-images.githubusercontent.com/77092838/210769660-eff8d4fd-60ec-47ea-84f7-01c0b5e478ad.png"/>
  도서 상세페이지 보기<br/>
  도서 수정</br>
  도서 삭제</br>
+ <img src="https://user-images.githubusercontent.com/77092838/210767782-43c9be5f-ff90-403b-8ade-22383a69cb60.png"/>
+
+ <img src="https://user-images.githubusercontent.com/77092838/210769660-eff8d4fd-60ec-47ea-84f7-01c0b5e478ad.png"/>
+
  
  <li>마이 페이지</li>
  내 정보 보기<br/>
