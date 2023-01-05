@@ -43,17 +43,17 @@
 <h1>📜 프로젝트 구현 기능</h1>
 <ul>
 <li>회원 (Member)<br/></li>
-회원가입 / 로그인 및 로그아웃/ 회원정보 수정 / 회원 정보 보기/ 회원탈퇴<br/><br/>
+회원가입/ 카카오 연동/ 로그인 및 로그아웃/ 회원정보 수정 / 회원 정보 보기/ 회원탈퇴<br/><br/>
 
 <li>상품 (Item)<br/></li>
 상품 등록 / 상품 관리 / 상품 수정 / 상품 조회 (메인화면) / 상품 상세 페이지<br/><br/>
 
 <li>공지(Board)<br/></li>
 공지 등록 / 공지 수정 / 공지 삭제/ 공지 조회<br/><br/>
-
+</ul>
 
 <h1>📂 프로젝트 DB 모델링</h1>
-![DB모델링](https://user-images.githubusercontent.com/77092838/210763161-5515a189-46ea-441f-83db-924d70053643.png)
+![DB모델링](https://user-images.githubusercontent.com/77092838/210767816-57592500-a19d-44be-93ef-20fefb309e2d.png)
 
 <br/>
 member : 회원정보 테이블</br>
@@ -72,13 +72,14 @@ BoardImg : 공지게시판용 파일 테이블</br>
 <ol>
  <li>회원</li>
  회원가입<br/>
+ 카카오연동</br>
  로그인<br/>
  회원정보수정</br>
  회원탈퇴</br>
- 카카오연동</br>
+ 
 
  <li>메인 페이지(홈)</li>
- ![메인페이지](https://user-images.githubusercontent.com/77092838/210766447-acefe85f-e9fd-4572-be8a-cd75ce494a0b.png)
+ ![메인페이지](https://user-images.githubusercontent.com/77092838/210767782-43c9be5f-ff90-403b-8ade-22383a69cb60.png)
 
  도서 리스트 보기<br/>
  도서 업로드<br/>
