@@ -1,6 +1,6 @@
 <h1>📢 WooJooBooks: Springboot를 이용한 중고거래 사이트</h1>
 
-<h1>🙋‍♂️ Spring을 함께 공부하고자 모인 사람들</h1>
+<h3>🙋‍♂️ Spring을 함께 공부하고자 모인 사람들</h3>
 <a href="https://github.com/simmini">simmini님</a> <br/>
 <a href="https://github.com/Lee-S-June">Lee-S-June님</a><br/>
 <a href="https://github.com/qdt6028">qdt6028님</a><br/> 
@@ -8,7 +8,7 @@
 <a href="https://github.com/Amuk97">Amuk97님</a><br/> 
 
 
-<h1>🎯 프로젝트 개발 동기 및 목표</h1>
+<h3>🎯 프로젝트 개발 동기 및 목표</h3>
 우주책방의 의미는  ‘우리 주변의 책방’ 입니다.
 최초 기획 의도는 지도API를 활용한 사용자의 위치를 기반으로 한 중고책 거래였습니다.
 스프링 부트, JPA, Security, 등이 기술스택들을 이론적으로 학습한 뒤에 이를 기반으로 한 간단한 중고거래
@@ -16,8 +16,8 @@
 이해하는 것에 중점을 두었고 프론트보다는 ‘구현 가능한’ 백엔드에 집중하였습니다.
 
 
-<h1>⚙️ 프로젝트 개발 환경</h1>
-  <ol>
+<h3>⚙️ 프로젝트 개발 환경</h3>
+ <ol>
   <li>운영체제 : Window10</li>
   <li>통합개발환경(IDE) : IntelliJ</li>
   <li>JDK 버전 : JDK 11</li>
@@ -28,7 +28,7 @@
  </ol>
  
  
-<h1>⚒️ 프로젝트 기술 스택</h1>
+<h3>⚒️ 프로젝트 기술 스택</h3>
 <ul>
   <li>프론트엔드</li>
 - HTML, CSS, JS, BootStrap, Thymeleaf, JQuery
@@ -40,7 +40,7 @@
 -ERDCloud,Flgma
  </ul>
 
-<h1>📜 프로젝트 구현 기능</h1>
+<h3>📜 프로젝트 구현 기능</h3>
 <ul>
  <li>회원 (Member)<br/></li>
 회원가입/ 카카오 연동/ 로그인 및 로그아웃/ 회원정보 수정 / 회원 정보 보기/ 회원탈퇴<br/><br/>
@@ -52,7 +52,7 @@
 공지 등록 / 공지 수정 / 공지 삭제/ 공지 조회<br/><br/>
 </ul>
 
-<h1>📂 프로젝트 DB 모델링</h1>
+<h3>📂 프로젝트 DB 모델링</h3>
 <img src="https://user-images.githubusercontent.com/77092838/210767816-57592500-a19d-44be-93ef-20fefb309e2d.png"/>
 
 <br/>
@@ -62,15 +62,15 @@ sellBoardImg : 판매게시판용 이미지파일 테이블</br>
 Board : 공지게시판 테이블</br>
 BoardImg : 공지게시판용 파일 테이블</br>
 
-<h1>📂 프로젝트 사이트 맵</h1>
+<h3>📂 프로젝트 사이트 맵</h3>
 <img src="https://user-images.githubusercontent.com/77092838/210768634-e46f6d1b-01fe-4e40-9669-386408e74bf0.png"/>
 
-<h1>📜 프로젝트 API 명세서</h1>
+<h3>📜 프로젝트 API 명세서</h3>
 <img src="https://user-images.githubusercontent.com/77092838/210763757-105df151-104a-403f-a0dc-c1c7fe4c561d.png"/>
 
 
-<h1>🎯 구현 결과</h1><br/>
-1)회원</br>
+<h3>🎯 구현 결과</h3>
+<br/>1)회원</br>
 <ul>
  <li>회원가입</li>
  <li>카카오연동</li>
