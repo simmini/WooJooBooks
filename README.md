@@ -77,9 +77,9 @@ BoardImg : 공지게시판용 파일 테이블</br>
  <li>로그인</li>
  <li>회원정보수정</li> 
  <li>회원탈퇴</li>
+ </ol>
  <img src="https://user-images.githubusercontent.com/77092838/210769848-0e8ae051-08b9-459d-a024-beea8ee9785f.png"/><br/>
  
- <카카오 사진>
  <img src="https://user-images.githubusercontent.com/77092838/210768747-c83db671-328f-410d-838d-b280d96ff1a4.png"/><br/>
 
  <img src="https://user-images.githubusercontent.com/77092838/210769872-fffef726-0044-4ad3-94d0-1c3e41255b52.png"/><br/>
@@ -88,8 +88,6 @@ BoardImg : 공지게시판용 파일 테이블</br>
  
 
 2)메인 페이지(홈)
-
-  
  도서 리스트 보기<br/>
  도서 업로드<br/>
  도서 상세페이지 보기<br/>
