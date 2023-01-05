@@ -55,7 +55,6 @@
 <h1>📂 프로젝트 DB 모델링</h1>
 <img src="https://user-images.githubusercontent.com/77092838/210767816-57592500-a19d-44be-93ef-20fefb309e2d.png"/>
 
-
 <br/>
 member : 회원정보 테이블</br>
 sellBoard : 판매게시판 테이블</br>
@@ -63,6 +62,8 @@ sellBoardImg : 판매게시판용 이미지파일 테이블</br>
 Board : 공지게시판 테이블</br>
 BoardImg : 공지게시판용 파일 테이블</br>
 
+<h1>📂 프로젝트 사이트 맵</h1>
+<img src="https://user-images.githubusercontent.com/77092838/210768634-e46f6d1b-01fe-4e40-9669-386408e74bf0.png"/>
 
 <h1>📜 프로젝트 API 명세서</h1>
 
@@ -73,9 +74,15 @@ BoardImg : 공지게시판용 파일 테이블</br>
 <ol>
  <li>회원</li>
  회원가입<br/>
+ <img src="https://user-images.githubusercontent.com/77092838/210769848-0e8ae051-08b9-459d-a024-beea8ee9785f.png"/>
+
  카카오연동</br>
  로그인<br/>
+ <img src="https://user-images.githubusercontent.com/77092838/210768747-c83db671-328f-410d-838d-b280d96ff1a4.png"/>
  회원정보수정</br>
+ <img src="https://user-images.githubusercontent.com/77092838/210769872-fffef726-0044-4ad3-94d0-1c3e41255b52.png"/>
+
+ 
  회원탈퇴</br>
  
 
@@ -84,14 +91,15 @@ BoardImg : 공지게시판용 파일 테이블</br>
 
  도서 리스트 보기<br/>
  도서 업로드<br/>
+ <img src="https://user-images.githubusercontent.com/77092838/210769660-eff8d4fd-60ec-47ea-84f7-01c0b5e478ad.png"/>
  도서 상세페이지 보기<br/>
  도서 수정</br>
  도서 삭제</br>
  
  <li>마이 페이지</li>
- <!--좋아요 내역, 판매/구매 내역<br/>-->
  내 정보 보기<br/>
- 
+<img src="https://user-images.githubusercontent.com/77092838/210769731-12b86f5c-1c4c-4b3d-9c1d-302375d7955c.png"/>
+
  <li>공지 페이지</li>
  공지 게시글 보기<br/>
  공지 업로드<br/>
