@@ -53,7 +53,7 @@
 </ul>
 
 <h1>📂 프로젝트 DB 모델링</h1>
-![DB모델링](https://user-images.githubusercontent.com/77092838/210767816-57592500-a19d-44be-93ef-20fefb309e2d.png)
+<img src="https://user-images.githubusercontent.com/77092838/210767816-57592500-a19d-44be-93ef-20fefb309e2d.png"/>
 ![DB모델링1](https://user-images.githubusercontent.com/77092838/210767996-e37dfcca-c304-4bb8-9777-15adedbd1a03.png)
 
 <br/>
