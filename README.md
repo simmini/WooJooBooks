@@ -69,7 +69,7 @@ BoardImg : 공지게시판용 파일 테이블</br>
 <img src="https://user-images.githubusercontent.com/77092838/210763757-105df151-104a-403f-a0dc-c1c7fe4c561d.png"/>
 
 
-<h1>🎯 구현 결과</h1>
+<h1>🎯 구현 결과</h1><br/>
 <ul>
  1)회원
  <li>회원가입</li>
@@ -87,24 +87,28 @@ BoardImg : 공지게시판용 파일 테이블</br>
 
  
 
-2)메인 페이지(홈)
- 도서 리스트 보기<br/>
- 도서 업로드<br/>
- 도서 상세페이지 보기<br/>
- 도서 수정</br>
- 도서 삭제</br>
+2)메인 페이지(홈)</br>
+<ul>
+ <li>도서 리스트 보기</li>
+ <li>도서 업로드</li>
+ <li>도서 상세페이지 보기</li>
+ <li>도서 수정</li>
+ <li>도서 삭제</li>
+ 
  <img src="https://user-images.githubusercontent.com/77092838/210767782-43c9be5f-ff90-403b-8ade-22383a69cb60.png"/>
 
  <img src="https://user-images.githubusercontent.com/77092838/210769660-eff8d4fd-60ec-47ea-84f7-01c0b5e478ad.png"/>
 
  
- <li>마이 페이지</li>
- 내 정보 보기<br/>
+ 3)마이 페이지</br>
+ <li>내 정보 보기</li>
+ 
 <img src="https://user-images.githubusercontent.com/77092838/210769731-12b86f5c-1c4c-4b3d-9c1d-302375d7955c.png"/>
 
- <li>공지 페이지</li>
- 공지 게시글 보기<br/>
- 공지 업로드<br/>
- 공지 수정<br/>
- 공지 삭제<br/>
-</ol>
+ 4)공지 페이지</br>
+ <ul>
+ <li>공지 게시글 보기</li>
+ <li>공지 업로드</li>
+ <li>공지 수정</li>
+ <li>공지 삭제</li>
+</ul>
