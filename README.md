@@ -54,7 +54,7 @@
 
 <h1>📂 프로젝트 DB 모델링</h1>
 <img src="https://user-images.githubusercontent.com/77092838/210767816-57592500-a19d-44be-93ef-20fefb309e2d.png"/>
-![DB모델링1](https://user-images.githubusercontent.com/77092838/210767996-e37dfcca-c304-4bb8-9777-15adedbd1a03.png)
+
 
 <br/>
 member : 회원정보 테이블</br>
@@ -80,7 +80,7 @@ BoardImg : 공지게시판용 파일 테이블</br>
  
 
  <li>메인 페이지(홈)</li>
- ![메인페이지](https://user-images.githubusercontent.com/77092838/210767782-43c9be5f-ff90-403b-8ade-22383a69cb60.png)
+ <img src="https://user-images.githubusercontent.com/77092838/210767782-43c9be5f-ff90-403b-8ade-22383a69cb60.png"/>
 
  도서 리스트 보기<br/>
  도서 업로드<br/>
