@@ -72,17 +72,19 @@ BoardImg : 공지게시판용 파일 테이블</br>
 <br/>1)회원</br>
 <ul>
  <li>회원가입</li>
- <li>카카오연동</li>
- <li>로그인</li>
- <li>회원정보수정</li> 
- <li>회원탈퇴</li>
+ <li>로그인,카카오 연동</li>
+ <li>회원정보수정,회원탈퇴</li> 
  </ul>
- <img src="https://user-images.githubusercontent.com/77092838/210769848-0e8ae051-08b9-459d-a024-beea8ee9785f.png"/><br/>
  
+ <img src="https://user-images.githubusercontent.com/77092838/210769848-0e8ae051-08b9-459d-a024-beea8ee9785f.png"/><br/>
+ <img width="699" alt="회원가입" src="https://user-images.githubusercontent.com/77092838/211150556-5ffbd73b-0176-4f9a-915d-8053c88cfe83.png"> <br/>
+
  <img src="https://user-images.githubusercontent.com/77092838/210768747-c83db671-328f-410d-838d-b280d96ff1a4.png"/><br/>
 
  <img src="https://user-images.githubusercontent.com/77092838/210769872-fffef726-0044-4ad3-94d0-1c3e41255b52.png"/><br/>
+ <img width="699" alt="회원정보 수정" src="https://user-images.githubusercontent.com/77092838/211150619-b3a91060-ead8-4f0f-9c1d-ee6575596de8.png"><br/>
  
+
 
  
 
