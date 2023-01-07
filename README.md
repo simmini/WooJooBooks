@@ -78,7 +78,7 @@ BoardImg : 공지게시판용 파일 테이블</br>
  
 
  <img width="699" alt="회원가입" src="https://user-images.githubusercontent.com/77092838/211150556-5ffbd73b-0176-4f9a-915d-8053c88cfe83.png"> <br/>
-ㅓ
+ 
  <img width="699" alt="회원정보 수정" src="https://user-images.githubusercontent.com/77092838/211150619-b3a91060-ead8-4f0f-9c1d-ee6575596de8.png"><br/>
  
 
@@ -89,6 +89,7 @@ BoardImg : 공지게시판용 파일 테이블</br>
 <ul>
   <li>홈</li>
 </ul>
+![image](https://user-images.githubusercontent.com/77092838/211151197-6a727612-a339-407b-ba74-da9693360b2c.png)
 
 
 <br/>3)판매 페이지</br>
@@ -109,6 +110,7 @@ BoardImg : 공지게시판용 파일 테이블</br>
   <li>내 정보 보기</li>
 </ul>
 <img width="699" alt="회원정보 보기" src="https://user-images.githubusercontent.com/77092838/211150722-56225c92-0cb5-45e2-b209-2c5a3945039d.png">
+
 
 
  <br/>5)공지 페이지</br>
