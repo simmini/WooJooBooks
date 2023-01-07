@@ -35,9 +35,9 @@
 <li>백엔드</li>
 - JAVA8 , Spring Boot, Spring MVC, Spring Security, Spring Data JPA
 <li>데이터베이스</li>
-- Hibernate, MySQL
+- MySQL, Hibernate(단위테스트)
 <li>기타</li>
--ERDCloud,Flgma
+-ERDCloud, Flgma
  </ul>
 
 <h3>📜 프로젝트 구현 기능</h3>
@@ -46,7 +46,7 @@
 회원가입/ 카카오 연동/ 로그인 및 로그아웃/ 회원정보 수정 / 회원탈퇴 / 회원 정보 보기<br/><br/>
 
 <li>상품 (Item)<br/></li>
-상품 등록 / 상품 관리 / 상품 수정 / 상품 삭제 / 상품 조회 /메인화면 / 상품 상세 페이지<br/><br/>
+상품 등록 / 상품 관리 / 상품 수정 / 상품 삭제 / 상품 조회 / 메인화면 / 상품 상세 페이지<br/><br/>
 
 <li>공지(Board)<br/></li>
 공지 등록 / 공지 수정 / 공지 삭제/ 공지 조회<br/><br/>
@@ -54,8 +54,8 @@
 
 <h3>📂 프로젝트 DB 모델링</h3>
 <img src="https://user-images.githubusercontent.com/77092838/210767816-57592500-a19d-44be-93ef-20fefb309e2d.png"/>
-
 <br/>
+
 member : 회원정보 테이블</br>
 sellBoard : 판매게시판 테이블</br>
 sellBoardImg : 판매게시판용 이미지파일 테이블</br>
@@ -70,7 +70,7 @@ BoardImg : 공지게시판용 파일 테이블</br>
 
 
 <h3>🎯 구현 결과</h3>
-<br/>1)회원</br>
+1)회원</br>
 <ul>
  <li>회원가입</li>
  <li>로그인,카카오 연동</li>
@@ -109,6 +109,7 @@ BoardImg : 공지게시판용 파일 테이블</br>
 <ul>
   <li>내 정보 보기</li>
 </ul>
+
 <img width="699" alt="회원정보 보기" src="https://user-images.githubusercontent.com/77092838/211150722-56225c92-0cb5-45e2-b209-2c5a3945039d.png">
 
 
@@ -117,8 +118,8 @@ BoardImg : 공지게시판용 파일 테이블</br>
 <ul>
  <li>공지 게시글 보기</li>
  <li>공지 업로드</li>
- <li>공지 수정</li>
- <li>공지 삭제</li>
+ <li>공지 수정,삭제</li>
 </ul>
+
 <img width="695" alt="공지글등록" src="https://user-images.githubusercontent.com/77092838/211152636-2cde6d3d-ff63-4047-b8a9-9ca7a5a74e9f.png">
 
