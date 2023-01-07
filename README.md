@@ -1,12 +1,13 @@
 <h1>📢 WooJooBooks: Springboot를 이용한 중고 도서 사이트</h1>
 
 <h3>🙋‍♂️ Spring을 함께 공부하고자 모인 사람들</h3>
-<a href="https://github.com/simmini">simmini님</a> <br/>
-<a href="https://github.com/Lee-S-June">Lee-S-June님</a><br/>
-<a href="https://github.com/qdt6028">qdt6028님</a><br/> 
-<a href="https://github.com/serena-0323">serena-0323님</a><br/> 
-<a href="https://github.com/Amuk97">Amuk97님</a><br/> 
-
+<ul>
+<li><a href="https://github.com/simmini">simmini님</a> </li>
+<li><a href="https://github.com/Lee-S-June">Lee-S-June님</a></li>
+<li><a href="https://github.com/qdt6028">qdt6028님</a></li> 
+<li><a href="https://github.com/serena-0323">serena-0323님</a></li> 
+<li><a href="https://github.com/Amuk97">Amuk97님</a></li> 
+</ul>
 
 <h3>🎯 프로젝트 개발 동기 및 목표</h3>
 우주책방의 의미는  ‘우리 주변의 책방’ 입니다.
