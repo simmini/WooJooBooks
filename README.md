@@ -22,6 +22,7 @@
   <li>JDK 버전 : JDK 11</li>
   <li>스프링 부트 버전 : 2.7.6 </li>
   <li>데이터 베이스 : MySQL</li>
+ <li>서버 : Apache Tomcat(9.0)</li>
   <li>빌드 툴 : gradle</li>
   <li>관리 툴 : Git, GitHub</li>
  </ol>
@@ -32,7 +33,7 @@
   <li>프론트엔드</li>
 - HTML, CSS, JS, BootStrap, Thymeleaf, JQuery
 <li>백엔드</li>
-- Spring Boot, Spring Security, Spring Data JPA, ApacheTomcat(9.0)
+- JAVA8 , Spring Boot, Spring MVC, Spring Security, Spring Data JPA
 <li>데이터베이스</li>
 - Hibernate, MySQL
 <li>기타</li>
@@ -94,7 +95,6 @@ BoardImg : 공지게시판용 파일 테이블</br>
 <img width="1264" alt="메인페이지" src="https://user-images.githubusercontent.com/77092838/211151261-643577e9-fcf8-4be7-b6a8-eb9b09ec178f.png">
 
 
-
 <br/>3)판매 페이지</br>
 <ul>
  <li>도서 리스트 보기</li>
@@ -117,7 +117,7 @@ BoardImg : 공지게시판용 파일 테이블</br>
 
 
  <br/>5)공지 페이지</br>
- <ul>
+<ul>
  <li>공지 게시글 보기</li>
  <li>공지 업로드</li>
  <li>공지 수정</li>
