@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org"
+      xmlns:layout="http://www.ultraq.net.nz/thymeleaf/layout"
+      layout:decorate="~{layouts/main}">
+
+<main id="main" layout:fragment="content">
+    <div class="con_wrap">
+        <div class="con_left">
+            <p class="cate_tit">소설</p>
+            <ul class="cate_list">
+                <li><a href="?page=1&size=7">한국소설</a></li>
+                <li><a href="?page=1&size=4">영미소설</a></li>
+                <li><a href="?page=2&size=4">일본소설</a></li>
+                <li><a href="?page=2&size=2">그외국가소설</a></li>
+                <li><a href="?page=3&size=2">청소년소설</a></li>
+                <li><a href="?page=4&size=3">고전소설/문학선</a></li>
+                <li><a href="?page=5&size=3">세계문학전집</a></li>
+                <li><a href="?page=2&size=4">라이트노벨</a></li>
+                <li><a href="?page=1&size=6">장르소설</a></li>
+            </ul>
+        </div>
+        <div class="con_right">
+            <p class="sub_title">목록보기</p>
+            <div class="r_list_wrap">
+                <ul class="right_list"  th:with="link = ${pageRequestDTO.getLink()}">
+                    <li th:each="dto:${responseDTO.dtoList}">
+                        <div class="image-block">
+                            <a th:href="|@{/sellboard/read(id =${dto.id})}&${link}|" class="list_img"
+                               th:if="${dto.sellBoardImageDto != null && dto.sellBoardImageDto.size() > 0}">
+                                <img th:each="boarImage: ${dto.sellBoardImageDto}"
+                                     th:src="|/view/s_${boarImage.uuid}_${boarImage.fileName}|">
+                            </a>
+                        </div>
+
+                        <p class="txt_01">
+                            <a th:href="|@{/sellboard/read(id =${dto.id})}&${link}|">[[${dto.sellTitle}]]</a>
+                        </p>
+                        <p class="txt_02">
+                            [[${dto.sellWriter}]]
+                        </p>
+                        <p class="txt_03">
+                            [[${dto.sellPrice}]]
+                        </p>
+                        <p class="txt_03">
+                            [[${dto.sellCondition}]]
+                        </p>
+                    </li>
+                </ul>
+            </div>
+            <div style="text-align: center">
+                <button type="button" class="create-btn btn btn-primary" style="" onClick="location.href='/sellboard/register'">글쓰기</button>
+            <div>
+
+            <div style="width: 100%" class="custom-pagination" >
+                <a th:each="i: ${#numbers.sequence(responseDTO.start, responseDTO.end)}"
+                   th:data-link="${i}" href="#" th:class="${responseDTO.page == i}?'active':''" onclick="goToPage(this)">
+                    [[${i}]]
+                </a>
+            </div>
+
+        </div>
+    </div>
+    <script layout:fragment="script" th:inline="javascript">
+        function goToPage(node) {
+            urlParams = new URLSearchParams(window.location.search)
+            urlParams.set("page", node.attributes.getNamedItem("data-link").value)
+
+            window.location.href = window.location.origin + window.location.pathname + "?" + urlParams.toString()
+        }
+    </script>
+
+</main><!-- End #main -->

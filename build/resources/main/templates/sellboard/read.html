@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org"
+      xmlns:layout="http://www.ultraq.net.nz/thymeleaf/layout"
+      layout:decorate="~{layouts/main}">
+
+<main id="main" layout:fragment="content">
+    <div class="write">
+        <form action="/sellboard/register" method="post" id="f1" onsubmit="appendFileData()">
+            <input type="hidden" class="form-control" th:value="${#authentication.principal.username}" name="writer"
+                   readonly/>
+
+            <div class="w_title">
+                <input type="text" name="title" th:value="${dto.title}" readonly>
+            </div>
+
+            <!-- 파일 업로드 -->
+            <div class="w_img">
+                <input type=file name='file1' style='display: none;'>
+                <div class="up_img">
+                    <div class="row mt-3">
+                        <div class="col ">
+                            <div class="container-fluid d-flex uploadResult" style="flex-wrap: wrap;">
+                                <img th:each="fileName: ${dto.fileNames}"
+                                     th:src="|/view/${fileName}|" border='0' onclick='document.all.file1.click();
+                  document.all.file2.value=document.all.file1.value'/>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="w_price">
+                <p class="w_op"><span><strong>정가  </strong></span>
+                    <input type="text" th:value="${dto.bookPrice}" readonly placeholder="정가를 입력하세요"></p>
+                <p class="w_sp"><span><strong>판매가  </strong></span>
+                    <input type="text" th:value="${dto.sellPrice}" readonly placeholder="판매가를 입력하세요"></p>
+                <p class="w_c"><span><strong>상태</strong></span>
+                    <input type="text" th:value="${dto.sellCondition}" readonly/></p>
+            </div>
+            <!-- 도서정보 -->
+            <div class="w_b_infowrap">
+                <p class="w_info_title"><span><strong>도서 정보</strong></span>
+                <ul class="w_info_list">
+                    <li class="w_book_title"><span><strong>도 서 명  </strong></span>
+                        <input type="text" th:value="${dto.bookTitle}" readonly>
+                    </li>
+                    <li class="w_info_witer"><span><strong>글 쓴 이  </strong></span>
+                        <input type="text" th:value="${dto.bookWriter}" readonly/></li>
+                    <li class="w_info_publ"><span><strong> 출 판 사 </strong></span>
+                        <input type="text" th:value="${dto.bookPublisher}" readonly /></li>
+                    <li class="w_info_date"><span><strong>출 간 일</strong></span>
+                        <input type="text" th:value="${dto.bookDate}" readonly /></li>
+                </ul>
+
+            </div>
+
+            <div class="w_d_infowrap">
+                <p class="w_d_infowrap_title"><span><strong>상세 설명</strong></span></p>
+                <textarea name="sellContent" readonly role="100%" cols="128%" rows="8"
+                          placeholder="상세 설명을 입력하세요">
+                    [[${dto.sellContent}]]
+                </textarea>
+
+            </div>
+
+            <!--            <div class="w_b_infowrap">-->
+            <!--                <ul class="w_info_list">-->
+            <!--                    <li class="w_info_publ"><span><strong>댓글 </strong></span>-->
+            <!--                        <input type="text" name="bookPublisher"-->
+            <!--                               placeholder="댓글을 입력하세요"></li>-->
+            <!--                    <li class="w_info_date"><span><strong>댓글</strong></span>-->
+            <!--                        <input type="text" name="bookDate"-->
+            <!--                               placeholder="댓글을 입력하세요"></li>-->
+            <!--                </ul>-->
+            <!--            </div>-->
+
+            <div class="w_btn" th:with="link = ${pageRequestDTO.getLink()}">
+
+                <a th:href="|@{/sellboard/list}?${link}|" class="text-decoration-none">
+                    <button type="button" class="btn btn-primary">목록</button>
+                </a>
+                <a th:href="|@{/sellboard/modify(id=${dto.id})}&${link}|" class="text-decoration-none">
+                    <button type="button" class="btn btn-secondary">수정</button>
+                </a>
+
+            </div>
+        </form>
+    </div>
+
+</main><!-- End #main -->
+
