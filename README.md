@@ -85,7 +85,8 @@
  
  <img width="699" alt="회원가입" src="https://user-images.githubusercontent.com/77092838/211150556-5ffbd73b-0176-4f9a-915d-8053c88cfe83.png"> <br/>
  
- <img width="1280" alt="로그인" src="https://user-images.githubusercontent.com/77092838/211151411-9bb5a0f9-e9a7-45a5-90fe-ad80370a25d3.png">
+<img width="698" alt="로그인" src="https://user-images.githubusercontent.com/77092838/211153702-b5be187d-ce7b-421d-8e7c-01f69667374a.png">
+
 
  <img width="699" alt="회원정보 수정" src="https://user-images.githubusercontent.com/77092838/211150619-b3a91060-ead8-4f0f-9c1d-ee6575596de8.png"><br/>
  
