@@ -57,12 +57,13 @@
 <h3>📂 프로젝트 DB 모델링</h3>
 <img src="https://user-images.githubusercontent.com/77092838/210767816-57592500-a19d-44be-93ef-20fefb309e2d.png"/>
 <br/>
-
-member : 회원정보 테이블</br>
-sellBoard : 판매게시판 테이블</br>
-sellBoardImg : 판매게시판용 이미지파일 테이블</br>
-Board : 공지게시판 테이블</br>
-BoardImg : 공지게시판용 파일 테이블</br>
+<ul>
+<li>member : 회원정보 테이블</li>
+<li>sellBoard : 판매게시판 테이블</li>
+<li>sellBoardImg : 판매게시판용 이미지파일 테이블</li>
+<li>Board : 공지게시판 테이블</li>
+<li>BoardImg : 공지게시판용 파일 테이블</li>
+</ul>
 
 <br/>
 <h3>📂 프로젝트 사이트 맵</h3>
