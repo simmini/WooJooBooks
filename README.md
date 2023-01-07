@@ -100,12 +100,9 @@ BoardImg : 공지게시판용 파일 테이블</br>
  <li>도서 리스트 보기</li>
  <li>도서 업로드</li>
  <li>도서 상세페이지 보기</li>
- <li>도서 수정</li>
- <li>도서 삭제</li>
+ <li>도서 수정,삭제</li>
  
- <img src="https://user-images.githubusercontent.com/77092838/210767782-43c9be5f-ff90-403b-8ade-22383a69cb60.png"/>
-
- <img src="https://user-images.githubusercontent.com/77092838/210769660-eff8d4fd-60ec-47ea-84f7-01c0b5e478ad.png"/>
+ <img width="699" alt="상품글등록" src="https://user-images.githubusercontent.com/77092838/211152462-4c876cfb-b6ef-4572-a1f7-c1489efb4d89.png">
 
  
 <br/>4)마이 페이지</br>
