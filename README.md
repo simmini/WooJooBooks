@@ -120,3 +120,5 @@ BoardImg : 공지게시판용 파일 테이블</br>
  <li>공지 수정</li>
  <li>공지 삭제</li>
 </ul>
+<img width="695" alt="공지글등록" src="https://user-images.githubusercontent.com/77092838/211152636-2cde6d3d-ff63-4047-b8a9-9ca7a5a74e9f.png">
+
