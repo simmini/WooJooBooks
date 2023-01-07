@@ -13,7 +13,7 @@
 기획 의도는 지도API를 활용한 사용자의 위치를 기반으로 한 중고책 거래였습니다.
 스프링 부트, JPA, Security, 등이 기술스택들을 이론적으로 학습한 뒤에 이를 기반으로 한 간단한 중고거래
  쇼핑몰 프로젝트를 구현해 보았습니다. 사용하는 기술들의 원리에 대해 이해하는 것에 중점을 두었고 프론트보다는 ‘구현 가능한’ 백엔드에 집중하였습니다.
-
+<br/>
 
 <h3>⚙️ 프로젝트 개발 환경</h3>
  <ol>
@@ -22,12 +22,12 @@
   <li>JDK 버전 : JDK 11</li>
   <li>스프링 부트 버전 : 2.7.6 </li>
   <li>데이터 베이스 : MySQL</li>
- <li>서버 : Apache Tomcat(9.0)</li>
+  <li>서버 : Apache Tomcat(9.0)</li>
   <li>빌드 툴 : gradle</li>
   <li>관리 툴 : Git, GitHub</li>
  </ol>
  
- 
+ <br/>
 <h3>⚒️ 프로젝트 기술 스택</h3>
 <ul>
   <li>프론트엔드</li>
@@ -39,7 +39,8 @@
 <li>기타</li>
 -ERDCloud, Flgma
  </ul>
-
+ 
+<br/>
 <h3>📜 프로젝트 구현 기능</h3>
 <ul>
  <li>회원 (Member)<br/></li>
@@ -52,6 +53,7 @@
 공지 등록 / 공지 수정 / 공지 삭제/ 공지 조회<br/><br/>
 </ul>
 
+<br/>
 <h3>📂 프로젝트 DB 모델링</h3>
 <img src="https://user-images.githubusercontent.com/77092838/210767816-57592500-a19d-44be-93ef-20fefb309e2d.png"/>
 <br/>
@@ -62,13 +64,15 @@ sellBoardImg : 판매게시판용 이미지파일 테이블</br>
 Board : 공지게시판 테이블</br>
 BoardImg : 공지게시판용 파일 테이블</br>
 
+<br/>
 <h3>📂 프로젝트 사이트 맵</h3>
 <img src="https://user-images.githubusercontent.com/77092838/210768634-e46f6d1b-01fe-4e40-9669-386408e74bf0.png"/>
 
+<br/>
 <h3>📜 프로젝트 API 명세서</h3>
 <img src="https://user-images.githubusercontent.com/77092838/210763757-105df151-104a-403f-a0dc-c1c7fe4c561d.png"/>
 
-
+<br/>
 <h3>🎯 구현 결과</h3>
 1)회원</br>
 <ul>
@@ -84,8 +88,6 @@ BoardImg : 공지게시판용 파일 테이블</br>
 
  <img width="699" alt="회원정보 수정" src="https://user-images.githubusercontent.com/77092838/211150619-b3a91060-ead8-4f0f-9c1d-ee6575596de8.png"><br/>
  
-
-
  
 
 <br/>2)메인 페이지</br>
