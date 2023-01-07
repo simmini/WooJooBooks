@@ -78,8 +78,7 @@ BoardImg : 공지게시판용 파일 테이블</br>
  
 
  <img width="699" alt="회원가입" src="https://user-images.githubusercontent.com/77092838/211150556-5ffbd73b-0176-4f9a-915d-8053c88cfe83.png"> <br/>
-
-
+ㅓ
  <img width="699" alt="회원정보 수정" src="https://user-images.githubusercontent.com/77092838/211150619-b3a91060-ead8-4f0f-9c1d-ee6575596de8.png"><br/>
  
 
