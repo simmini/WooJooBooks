@@ -74,14 +74,13 @@ BoardImg : 공지게시판용 파일 테이블</br>
 
 <br/>
 <h3>🎯 구현 결과</h3>
-1)회원</br>
+1)회원<br/>
 <ul>
  <li>회원가입</li>
  <li>로그인,카카오 연동</li>
  <li>회원정보수정,회원탈퇴</li> 
  </ul>
  
-
  <img width="699" alt="회원가입" src="https://user-images.githubusercontent.com/77092838/211150556-5ffbd73b-0176-4f9a-915d-8053c88cfe83.png"> <br/>
  
  <img width="1280" alt="로그인" src="https://user-images.githubusercontent.com/77092838/211151411-9bb5a0f9-e9a7-45a5-90fe-ad80370a25d3.png">
@@ -113,7 +112,6 @@ BoardImg : 공지게시판용 파일 테이블</br>
 </ul>
 
 <img width="699" alt="회원정보 보기" src="https://user-images.githubusercontent.com/77092838/211150722-56225c92-0cb5-45e2-b209-2c5a3945039d.png">
-
 
 
  <br/>5)공지 페이지</br>
