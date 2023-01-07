@@ -76,12 +76,10 @@ BoardImg : 공지게시판용 파일 테이블</br>
  <li>회원정보수정,회원탈퇴</li> 
  </ul>
  
- <img src="https://user-images.githubusercontent.com/77092838/210769848-0e8ae051-08b9-459d-a024-beea8ee9785f.png"/><br/>
+
  <img width="699" alt="회원가입" src="https://user-images.githubusercontent.com/77092838/211150556-5ffbd73b-0176-4f9a-915d-8053c88cfe83.png"> <br/>
 
- <img src="https://user-images.githubusercontent.com/77092838/210768747-c83db671-328f-410d-838d-b280d96ff1a4.png"/><br/>
 
- <img src="https://user-images.githubusercontent.com/77092838/210769872-fffef726-0044-4ad3-94d0-1c3e41255b52.png"/><br/>
  <img width="699" alt="회원정보 수정" src="https://user-images.githubusercontent.com/77092838/211150619-b3a91060-ead8-4f0f-9c1d-ee6575596de8.png"><br/>
  
 
@@ -103,9 +101,10 @@ BoardImg : 공지게시판용 파일 테이블</br>
  
 <br/>3)마이 페이지</br>
 <ul>
- <li>내 정보 보기</li>
- </ul>
-<img src="https://user-images.githubusercontent.com/77092838/210769731-12b86f5c-1c4c-4b3d-9c1d-302375d7955c.png"/>
+  <li>내 정보 보기</li>
+</ul>
+<img width="699" alt="회원정보 보기" src="https://user-images.githubusercontent.com/77092838/211150722-56225c92-0cb5-45e2-b209-2c5a3945039d.png">
+
 
  <br/>4)공지 페이지</br>
  <ul>
