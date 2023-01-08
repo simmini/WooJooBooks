@@ -23,7 +23,6 @@
   <li>JDK 버전 : JDK 11</li>
   <li>스프링 부트 버전 : 2.7.6 </li>
   <li>데이터 베이스 : MySQL</li>
-  <li>서버 : Apache Tomcat(9.0)</li>
   <li>빌드 툴 : gradle</li>
   <li>관리 툴 : Git, GitHub</li>
  </ol>
