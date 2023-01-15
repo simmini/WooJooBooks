@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org"
+      xmlns:layout="http://www.ultraq.net.nz/thymeleaf/layout"
+      xmlns:sec="http://www.thymeleaf.org/extras/spring-security">
+<head>
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+    <title>공지게시만 리스트입니다.</title>
+    <meta content="" name="description">
+    <meta content="" name="keywords">
+
+    <!-- Favicons -->
+    <link href="assets/img/favicon.png" rel="icon">
+    <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+            href="https://fonts.googleapis.com/css2?family=EB+Garamond:wght@400;500&family=Inter:wght@400;500&family=Playfair+Display:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+            rel="stylesheet">
+
+    <script th:src="@{/css/static/assets/vendor/bootstrap/js/bootstrap.bundle.min.js}"></script>
+
+    <link th:href="@{/css/static/assets/vendor/bootstrap/css/bootstrap.min.css}" rel="stylesheet"/>
+    <link th:href="@{/css/static/assets/vendor/bootstrap-icons/bootstrap-icons.css}" rel="stylesheet"/>
+    <link th:href="@{/css/static/assets/vendor/swiper/swiper-bundle.min.css}" rel="stylesheet"/>
+    <link th:href="@{/css/static/assets/vendor/glightbox/css/glightbox.min.css}" rel="stylesheet"/>
+    <link th:href="@{/css/static/assets/vendor/aos/aos.css}" rel="stylesheet"/>
+    <link th:href="@{/css/static/assets/css/variables.css}" rel="stylesheet"/>
+    <link th:href="@{/css/static/assets/css/main.css}" rel="stylesheet"/>
+
+    <!-- JS, Popper.js, and jQuery -->
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <th:block layout:fragment="script"></th:block>
+    <th:block layout:fragment="css"></th:block>
+</head>
+
+<body>
+
+<!-- ======= Header ======= -->
+<header id="header" class="header d-flex align-items-center fixed-top">
+    <nav class="container-fluid container-xl d-flex align-items-center justify-content-between">
+
+        <a href="/sellboard/main" class="logo d-flex align-items-center">
+            <!-- Uncomment the line below if you also wish to use an image logo -->
+            <!-- <img src="assets/img/logo.png" alt=""> -->
+            <h1>WooJooBooks</h1>
+        </a>
+
+        <nav id="navbar" class="navbar">
+            <ul>
+                <li class="dropdown"><span>도서전체목록</span> <i class="bi bi-chevron-down dropdown-indicator"></i></a>
+
+                    <ul>
+                        <li><a href="/sellboard/list">소설</a></li>
+                        <li><a href="/sellboard/list">시/에세이</a></li>
+                        <li><a href="#">인문</a></li>
+                        <li><a href="#">가정/육아</a></li>
+                        <li><a href="#">요리</a></li>
+                        <li><a href="#">건강</a></li>
+                        <li><a href="#">취미/실용/스포츠</a></li>
+                        <li><a href="#">경제/경영</a></li>
+                        <li><a href="#">자기개발</a></li>
+                    </ul>
+                    <ul class="list_2">
+                        <li><a href="#">정치/사회</a></li>
+                        <li><a href="#">역사/문화</a></li>
+                        <li><a href="#">종교</a></li>
+                        <li><a href="#">예술/대중문화</a></li>
+                        <li><a href="#">중/고등참고서</a></li>
+                        <li><a href="#">기술/공학</a></li>
+                        <li><a href="#">외국어</a></li>
+                        <li><a href="#">과학</a></li>
+                        <li><a href="#">취업/수험서</a></li>
+                    </ul>
+                    <ul class="list_3">
+                        <li><a href="#">여행</a></li>
+                        <li><a href="#">컴퓨터/IT</a></li>
+                        <li><a href="#">잡지</a></li>
+                        <li><a href="#">청소년</a></li>
+                        <li><a href="#">초등</a></li>
+                        <li><a href="#">유아</a></li>
+                        <li><a href="#">만화</a></li>
+                        <li><a href="#">대학교재</a></li>
+                        <li><a href="#">한국소개도서</a></li>
+                    </ul>
+                </li>
+
+                <li><a href="/sellboard/list">판매 게시판</a></li>
+                <li><a href="/board/list">공지 게시판</a></li>
+            </ul>
+        </nav><!-- .navbar -->
+
+        <div class="position-relative">
+            <form action="/sellboard/list" method="get">
+                <div class="col search-bar">
+                    <input type="hidden" name="size" th:value="${pageRequestDTO.size}">
+                    <div class="input-group">
+                        <div class="input-group-prepend">
+                            <select class="form-select" name="type">
+                                <option value="">---</option>
+                                <option value="t" th:selected="${pageRequestDTO.type =='t'}">도서명</option>
+                                <option value="c" th:selected="${pageRequestDTO.type =='c'}">출판사</option>
+                                <option value="w" th:selected="${pageRequestDTO.type =='w'}">글쓴이</option>
+                                <option value="tc" th:selected="${pageRequestDTO.type =='tc'}">도서명 출판사</option>
+                                <option value="tcw" th:selected="${pageRequestDTO.type =='tcw'}">도서명 출판사 글쓴이</option>
+                            </select>
+                        </div>
+                        <input type="text" class="form-control" name="keyword" th:value="${pageRequestDTO.keyword}">
+                        <div class="input-group-append">
+                            <button class="btn_searchBtn" type="submit">Search</button>
+
+                        </div>
+                    </div>
+                </div>
+            </form>
+        </div>
+
+
+        <nav id="navbar" class="navbar">
+            <div class="login">
+                <ul>
+                    <li sec:authorize="isAnonymous()"><a href="/member/login">로그인</a></li>
+                    <li sec:authorize="isAuthenticated()"><a href="/member/logout">로그아웃</a></li>
+                    <li sec:authorize="isAuthenticated()"><a href="/member/read">마이페이지</a></li>
+                </ul>
+
+
+            </div>
+        </nav>
+    </nav>
+</header><!-- End Header -->
+
+
+<div layout:fragment="content" class="content">
+
+</div>
+
+<!-- ======= Footer ======= -->
+<footer id="footer" class="footer">
+    <div class="footer-content">
+        <div class="copyright">
+            © Copyright <strong><span>WooJooBooks</span></strong>
+        </div>
+    </div>
+</footer>
+
+<a href="#" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+<!-- Vendor JS Files -->
+<script th:src="@{/css/static/assets/vendor/swiper/swiper-bundle.min.js}"></script>
+<script th:src="@{/css/static/assets/vendor/glightbox/js/glightbox.min.js}"></script>
+<script th:src="@{/css/static/assets/vendor/aos/aos.js}"></script>
+<script th:src="@{/css/static/assets/vendor/php-email-form/validate.js}"></script>
+
+<!-- Template Main JS File -->
+<script th:src="@{/css/static/assets/js/main.js}"></script>
+<script th:src="@{/css/static/js/upload.js}"></script>
+<script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+</body>
+
+</html>

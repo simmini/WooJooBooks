@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org"
+      xmlns:layout="http://www.ultraq.net.nz/thymeleaf/layout"
+      layout:decorate="~{layouts/main}">
+
+<main id="main" layout:fragment="content">
+
+    <!-- ======= Hero Slider Section ======= -->
+    <section id="hero-slider" class="hero-slider">
+        <div class="container-md" data-aos="fade-in">
+            <div class="row">
+                <div class="col-12">
+                    <div class="swiper sliderFeaturedPosts">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <a href="#" class="img-bg d-flex align-items-end"
+                                   style="background-image: url('/css/static/assets/img/post-slide-1.jpg');">
+
+                                </a>
+                            </div>
+
+                            <div class="swiper-slide">
+                                <a href="#" class="img-bg d-flex align-items-end"
+                                   style="background-image: url('/css/static/assets/img/메인.jpg');">
+                                    <div class="img-bg-inner">
+
+                                    </div>
+                                </a>
+                            </div>
+
+                            <div class="swiper-slide">
+                                <a href="/board/read?bno=36" class="img-bg d-flex align-items-end"
+                                   style="background-image: url('/css/static/assets/img/메인4.jpg');">
+                                    <div class="img-bg-inner">
+
+                                    </div>
+                                </a>
+                            </div>
+
+                            <div class="swiper-slide">
+                                <a href="#" class="img-bg d-flex align-items-end"
+                                   style="background-image: url('/css/static/assets/img/메인.jpg');">
+                                    <div class="img-bg-inner">
+
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="custom-swiper-button-next">
+                            <span class="bi-chevron-right"></span>
+                        </div>
+                        <div class="custom-swiper-button-prev">
+                            <span class="bi-chevron-left"></span>
+                        </div>
+
+                        <div class="swiper-pagination"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section><!-- End Hero Slider Section -->
+
+    <!-- ======= Post Grid Section ======= -->
+    <section id="posts" class="posts">
+        <div class="container" data-aos="fade-up">
+            <div class="con_tit">가장 인기있는 중고도서</div>
+            <hr>
+            <div class="row g-5">
+                <div class="col-lg-4">
+                    <div class="post-entry-1 lg">
+                        <a href="/sellboard/read?id=20"><img src="/css/static/assets/img/원청.jpg" alt=""
+                                                        class="img-fluid"></a>
+                        <div class="b_tit">
+                            원청
+                        </div>
+                        <div class="s_tit">
+                            해 출판사
+                        </div>
+                        <div class="price">
+                            8000원
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="post-entry-1 lg">
+                        <a href="/sellboard/read?id=18"><img src="/css/static/assets/img/올리앤더.jpg" alt="" class="img-fluid"></a>
+                        <div class="b_tit">
+                            올리앤더
+                        </div>
+                        <div class="s_tit">
+                            가나다 출판사
+                        </div>
+                        <div class="price">
+                            7000원
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="post-entry-1 lg">
+                        <a href="/sellboard/read?id=11"><img src="/css/static/assets/img/지구 끝의 온실.jpg" alt="" class="img-fluid"></a>
+                        <div class="b_tit">
+                            지구 끝의 온실
+                        </div>
+                        <div class="s_tit">
+                            파란 출판사
+                        </div>
+                        <div class="price">
+                            10000원
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="post-entry-1 lg">
+                        <a href="/sellboard/read?id=21"><img src="/css/static/assets/img/은행나무 할아버지.jpg" alt="" class="img-fluid"></a>
+                        <div class="b_tit">
+                            은행나무 할아버지
+                        </div>
+                        <div class="s_tit">
+                            정글 출판사
+                        </div>
+                        <div class="price">
+                            5000원
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="post-entry-1 lg">
+                        <a href="single-post.html"><img src="/css/static/assets/img/못된 짓.jpg" alt="" class="img-fluid"></a>
+                        <div class="b_tit">
+                            못된 짓
+                        </div>
+                        <div class="s_tit">
+                            마리 출판사
+                        </div>
+                        <div class="price">
+                            11000원
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </section> <!-- End Post Grid Section -->
+
+    <section id="posts" class="posts">
+        <div class="container" data-aos="fade-up">
+            <div class="con_tit">가장 잘 팔리는 중고도서</div>
+            <hr>
+            <div class="row g-5">
+                <div class="col-lg-4">
+                    <div class="post-entry-1 lg">
+                        <a href="single-post.html"><img src="/css/static/assets/img/엄마에 대하여.jpg" alt="" class="img-fluid"></a>
+                        <div class="b_tit">
+                            책제목이나옵니다
+                        </div>
+                        <div class="s_tit">
+                            여기는 뭐가나올까요
+                        </div>
+                        <div class="price">
+                            100원
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="post-entry-1 lg">
+                        <a href="single-post.html"><img src="/css/static/assets/img/지구 끝의 온실.jpg" alt="" class="img-fluid"></a>
+                        <div class="b_tit">
+                            지구 끝의 온실
+                        </div>
+                        <div class="s_tit">
+                            잔디 출판사
+                        </div>
+                        <div class="price">
+                            6500원
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="post-entry-1 lg">
+                        <a href="single-post.html"><img src="/css/static/assets/img/검푸른 고래 요나.jpg" alt="" class="img-fluid"></a>
+                        <div class="b_tit">
+                            검푸른 고래 요나
+                        </div>
+                        <div class="s_tit">
+                            바다 출판사
+                        </div>
+                        <div class="price">
+                            7300원
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="post-entry-1 lg">
+                        <a href="single-post.html"><img src="/css/static/assets/img/선물이 있어.jpg" alt="" class="img-fluid"></a>
+                        <div class="b_tit">
+                            선물이 있어
+                        </div>
+                        <div class="s_tit">
+                           연릭책들 출판사
+                        </div>
+                        <div class="price">
+                            5500원
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="post-entry-1 lg">
+                        <a href="single-post.html"><img src="/css/static/assets/img/크리스마스 타일.jpg" alt="" class="img-fluid"></a>
+                        <div class="b_tit">
+                            크리스마스 타일
+                        </div>
+                        <div class="s_tit">
+                            참비 출판사
+                        </div>
+                        <div class="price">
+                            9000원
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </section> <!-- End Post Grid Section -->
+
+
+</main><!-- End #main -->

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org"
+      xmlns:layout="http://www.ultraq.net.nz/thymeleaf/layout"
+      layout:decorate="~{layouts/main}">
+
+<main id="main" layout:fragment="content">
+    <div class="write">
+        <div class="w_title">
+            <input type="text" th:value="${dto.title}" readonly placeholder="공지 제목을 입력하세요">
+
+            <p class="like"><img src="" alt=""></p>
+        </div>
+        <!-- 파일 업로드 -->
+        <div class="w_img">
+            <img th:each="fileName: ${dto.fileNames}"
+                 th:src="|/view/${fileName}|" border='0' onclick='document.all.file1.click();
+                  document.all.file2.value=document.all.file1.value'/>
+
+        </div>
+
+        <div class="w_d_infowrap">
+            <p class="w_d_infowrap_title"><span><strong>공지 내용</strong></span></p>
+            <textarea name="w_d_info_write" readonly role="100%" cols="128%" rows="8" placeholder="공지 내용을 입력하세요">
+                [[${dto.content}]]
+            </textarea>
+
+        </div>
+        <form action="./category1.html">
+            <div class="w_btn" th:with="link = ${pageRequestDTO.getLink()}">
+                <a th:href="|@{/board/list}?${link}|" class="text-decoration-none">
+                    <button type="button" class="btn btn-primary">목록</button>
+                </a>
+                <a th:href="|@{/board/modify(bno=${dto.bno})}&${link}|" class="text-decoration-none">
+                    <button type="button" class="btn btn-secondary">수정</button>
+                </a>
+            </div>
+
+        </form>
+    </div>
+
+
+    </div>
+
+</main><!-- End #main -->
